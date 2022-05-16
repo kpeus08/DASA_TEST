@@ -1,0 +1,23 @@
+.Headline{
+    text-align: left;
+    color: blue;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.container{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.labelDiv{
+    float: left;
+}
+.inputDiv{
+    float: right;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 1px;
+  }
