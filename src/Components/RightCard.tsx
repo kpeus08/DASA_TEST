@@ -29,7 +29,7 @@ export function RightCard(){
                             <Typography variant="body1" >Engine model</Typography>
                         </div>
                         <div className='inputDiv'>
-                            <Select variant='standard' name="Model" value = {modelValue} onChange = { e => {SetModelValue(e.target.value)}}>
+                            <Select variant='standard' name="Model" value = {modelValue} onChange = { e => {SetModelValue(e.target.value) }}>
                                 <MenuItem value={'Diesel'}>Diesel</MenuItem>
                                 <MenuItem value={'Petrol'}>Petrol</MenuItem>
                                 <MenuItem value={'Electricity'}>Electricity</MenuItem>
